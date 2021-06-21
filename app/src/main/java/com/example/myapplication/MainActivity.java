@@ -36,17 +36,17 @@ public class MainActivity extends AppCompatActivity {
                 if(iAge<28)
                 {
                     strSug+=getString(R.string.sug_not_hurry);
-                    Log.d("MarriSug","man not hurry!");
+
                 }
                 else if(iAge>33)
                 {
                     strSug+=getString(R.string.sug_get_married);
-                    Log.d("MarriSug","man get married!");
+
                 }
                 else
                 {
                     strSug+=getString(R.string.sug_find_couple);
-                    Log.d("MarriSug","man find couple!");
+
                 }
             }
             else
@@ -54,17 +54,17 @@ public class MainActivity extends AppCompatActivity {
                 if(iAge<25)
                 {
                     strSug+=getString(R.string.sug_not_hurry);
-                    Log.d("MarriSug","woman not hurry!");
+
                 }
                 else if(iAge>30)
                 {
                     strSug+=getString(R.string.sug_get_married);
-                    Log.d("MarriSug","woman get married!");
+
                 }
                 else
                 {
                     strSug+=getString(R.string.sug_find_couple);
-                    Log.d("MarriSug","woman find couple!");
+
                 }
             }
             txtR.setText(strSug);
