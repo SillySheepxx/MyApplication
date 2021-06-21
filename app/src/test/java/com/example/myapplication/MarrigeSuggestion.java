@@ -1,2 +1,4 @@
-package com.example.myapplication;public class MarrigeSuggestion {
+package com.example.myapplication;
+
+public class MarrigeSuggestion {
 }
